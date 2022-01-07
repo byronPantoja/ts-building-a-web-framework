@@ -1,6 +1,6 @@
 interface UserProps {
-  name: string;
-  age: number;
+  name?: string;
+  age?: number;
 }
 
 type Callback = () => void;
