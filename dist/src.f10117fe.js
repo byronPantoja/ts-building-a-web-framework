@@ -182,13 +182,8 @@ user.on('change', function () {
 user.on('change', function () {
   console.log('Change #2');
 });
-<<<<<<< HEAD
 user.on('save', function () {
   console.log('Save was triggered');
-=======
-user.set({
-  name: 'bee'
->>>>>>> develop
 });
 user.trigger('save');
 },{"./models/User":"src/models/User.ts"}],"../../../.nvm/versions/node/v14.15.4/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -219,11 +214,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-<<<<<<< HEAD
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53663" + '/');
-=======
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54530" + '/');
->>>>>>> develop
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50455" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
